@@ -1,0 +1,11 @@
+pages\LoginPagePF.class
+pages\LoginPage.class
+tests\As.class
+pages\PIMPage.class
+tests\Sample3.class
+tests\LoginTest.class
+base\BaseTest.class
+tests\Sample1.class
+tests\Sample.class
+tests\Sample2.class
+tests\PIMTest.class

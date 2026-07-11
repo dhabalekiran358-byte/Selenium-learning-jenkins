@@ -1,0 +1,31 @@
+package com.automation.scripts;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class CheckPointCheckTitle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		WebDriver  driver = new ChromeDriver();
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+
+		String expectedTitle = "OrangeHRM";
+	    String actualTitle = driver.getTitle();
+
+	    System.out.println("Actual Title is : " + actualTitle);
+
+	    // checkpoint code - compare the expected and actual title
+	    
+	    if (actualTitle.contentEquals(expectedTitle))
+	    	System.out.println("Title same ...Test Passed!");
+	    else
+	    	System.out.println("Title not same ...Test Failed");
+	    
+        driver.quit();
+		
+		
+	}
+
+}
