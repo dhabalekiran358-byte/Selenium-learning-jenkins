@@ -1,31 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Add Employee Test PASSED]]>
-    </line>
   </reporter-output>
-  <suite started-at="2026-06-20T08:03:54 IST" name="Suite" finished-at="2026-06-20T08:05:10 IST" duration-ms="76526">
+  <suite started-at="2026-07-18T01:21:34 IST" name="Default suite" finished-at="2026-07-18T01:21:53 IST" duration-ms="19568">
     <groups>
     </groups>
-    <test started-at="2026-06-20T08:03:54 IST" name="TestNG Sample Testing" finished-at="2026-06-20T08:05:10 IST" duration-ms="76526">
-      <class name="tests.PIMTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PIMTest@6adbc9d]" started-at="2026-06-20T08:03:54 IST" name="setup" finished-at="2026-06-20T08:04:08 IST" duration-ms="13877" status="PASS">
+    <test started-at="2026-07-18T01:21:34 IST" name="Default test" finished-at="2026-07-18T01:21:53 IST" duration-ms="19568">
+      <class name="tests.AdminSkillTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminSkillTest@1bb5a082]" started-at="2026-07-18T01:21:34 IST" name="setup" finished-at="2026-07-18T01:21:38 IST" duration-ms="4178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyAddEmployee()[pri:0, instance:tests.PIMTest@6adbc9d]" started-at="2026-06-20T08:04:08 IST" name="verifyAddEmployee" finished-at="2026-06-20T08:05:09 IST" duration-ms="61603" status="PASS">
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:tests.AdminSkillTest@1bb5a082]" started-at="2026-07-18T01:21:38 IST" name="pageSetup" finished-at="2026-07-18T01:21:39 IST" duration-ms="643" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Add Employee Test PASSED]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- verifyAddEmployee -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.PIMTest@6adbc9d]" started-at="2026-06-20T08:05:09 IST" name="closeBrowser" finished-at="2026-06-20T08:05:10 IST" duration-ms="970" status="PASS">
+        </test-method> <!-- pageSetup -->
+        <test-method signature="verifyAddSkill(java.lang.String,java.lang.String)[pri:0, instance:tests.AdminSkillTest@1bb5a082]" started-at="2026-07-18T01:21:39 IST" name="verifyAddSkill" data-provider="skillData" finished-at="2026-07-18T01:21:44 IST" duration-ms="5489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Java]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Java Programming]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddSkill -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.AdminSkillTest@1bb5a082]" started-at="2026-07-18T01:21:44 IST" name="closeBrowser" finished-at="2026-07-18T01:21:44 IST" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- tests.PIMTest -->
-    </test> <!-- TestNG Sample Testing -->
-  </suite> <!-- Suite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminSkillTest@1bb5a082]" started-at="2026-07-18T01:21:44 IST" name="setup" finished-at="2026-07-18T01:21:48 IST" duration-ms="3743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:tests.AdminSkillTest@1bb5a082]" started-at="2026-07-18T01:21:48 IST" name="pageSetup" finished-at="2026-07-18T01:21:49 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="verifyAddSkill(java.lang.String,java.lang.String)[pri:0, instance:tests.AdminSkillTest@1bb5a082]" started-at="2026-07-18T01:21:49 IST" name="verifyAddSkill" data-provider="skillData" finished-at="2026-07-18T01:21:53 IST" duration-ms="4486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Python]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Python Programming]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddSkill -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.AdminSkillTest@1bb5a082]" started-at="2026-07-18T01:21:53 IST" name="closeBrowser" finished-at="2026-07-18T01:21:53 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.AdminSkillTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

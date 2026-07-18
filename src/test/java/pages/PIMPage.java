@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PIMPage{
-	
+
 	WebDriver driver;
 	WebDriverWait wait;
 

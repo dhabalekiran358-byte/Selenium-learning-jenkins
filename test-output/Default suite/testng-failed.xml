@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.PIMTest">
+      <class name="tests.AdminSkillTest">
         <methods>
           <include name="setup"/>
-          <include name="verifyAddEmployee"/>
+          <include name="pageSetup"/>
+          <include name="verifyAddSkill" invocation-numbers="0 1"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- tests.PIMTest -->
+      </class> <!-- tests.AdminSkillTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

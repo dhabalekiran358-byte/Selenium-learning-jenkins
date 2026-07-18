@@ -40,8 +40,13 @@
                  We are NOT using JUnit.
                  Never mix JUnit + TestNG in same project. -->
    
-            <!-- JUnit 5 --> 
-            
+            <!-- JUnit 5 -->
+
+            <dependency>
+            	<groupId>com.automation</groupId>
+            	<artifactId>cucumber-learning</artifactId>
+            	<version>0.0.1-SNAPSHOT</version>
+            </dependency>
         </dependencies>
 
   <build>

@@ -2,7 +2,7 @@
 	<test name = "TestNG Sample Testing">
 	
 	<classes>
-		<class name="tests.PIMTest"/>
+		<class name="tests.AdminSkillTest"/>
 	</classes>
 	
 	</test>

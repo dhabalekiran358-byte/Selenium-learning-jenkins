@@ -25,8 +25,8 @@ public class PIMTest extends BaseTest {
        
 		// Add Employee Data 
 		String firstName = "Kiran";
-		String middleName = "A";
-		String lastName = "D";
+		String middleName = "AB";
+		String lastName = "Dja";
 		
 		String expectedName = firstName + " " + lastName;
 		

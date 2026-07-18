@@ -5,23 +5,23 @@
       <![CDATA[Add Employee Test PASSED]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-07-11T18:34:01 IST" name="Suite" finished-at="2026-07-11T18:34:49 IST" duration-ms="47971">
+  <suite started-at="2026-07-17T15:06:09 IST" name="Suite" finished-at="2026-07-17T15:07:19 IST" duration-ms="69775">
     <groups>
     </groups>
-    <test started-at="2026-07-11T18:34:01 IST" name="TestNG Sample Testing" finished-at="2026-07-11T18:34:49 IST" duration-ms="47971">
+    <test started-at="2026-07-17T15:06:09 IST" name="TestNG Sample Testing" finished-at="2026-07-17T15:07:19 IST" duration-ms="69775">
       <class name="tests.PIMTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PIMTest@6ca8564a]" started-at="2026-07-11T18:34:01 IST" name="setup" finished-at="2026-07-11T18:34:10 IST" duration-ms="8886" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PIMTest@3f197a46]" started-at="2026-07-17T15:06:09 IST" name="setup" finished-at="2026-07-17T15:06:29 IST" duration-ms="20064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyAddEmployee()[pri:0, instance:tests.PIMTest@6ca8564a]" started-at="2026-07-11T18:34:10 IST" name="verifyAddEmployee" finished-at="2026-07-11T18:34:49 IST" duration-ms="38662" status="PASS">
+        <test-method signature="verifyAddEmployee()[pri:0, instance:tests.PIMTest@3f197a46]" started-at="2026-07-17T15:06:29 IST" name="verifyAddEmployee" finished-at="2026-07-17T15:07:18 IST" duration-ms="49351" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Add Employee Test PASSED]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyAddEmployee -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.PIMTest@6ca8564a]" started-at="2026-07-11T18:34:49 IST" name="closeBrowser" finished-at="2026-07-11T18:34:49 IST" duration-ms="367" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.PIMTest@3f197a46]" started-at="2026-07-17T15:07:18 IST" name="closeBrowser" finished-at="2026-07-17T15:07:19 IST" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
